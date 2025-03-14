@@ -24,9 +24,8 @@ public class movement : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.velocity = dir * movespeed * 20;
         rb.MovePosition(rb.position + dir * movespeed * Time.fixedDeltaTime);
-        animator.SetFloat("speed", rb.velocity.magnitude);
+        animator.SetFloat("speed", dir.magnitude);
         if(dir.x>0)
         transform.localScale = new Vector2(1, 1);
         else if (dir.x < 0)
