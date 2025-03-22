@@ -1,8 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Free/Main Characters/Pink Man/player_run.anim.meta
+guid: 47e9d486eebac454abf5cd3b7a5bc9c9
+========
 guid: d82e1bd007d22dc428da0aa8df9c12dc
+>>>>>>>> d19e07a22143e03c3d845333d424b3efc16bf129:Assets/Free/Main Characters/Pink Man/run.anim.meta
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 7400000
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
